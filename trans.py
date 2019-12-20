@@ -45,7 +45,7 @@ while True:
     choice = input("Press 1 for Eng-Igbo and 2 for Igbo-Eng: ")
     if choice == "1":
         j = input ("Enter an English word or phrase: ")
-        word = igboDict.get(j)
+        word = igboDict.get(j.lower())
         newJ = j[0:1].upper() + j[1:].lower()
         if word:
             print(f'{newJ} in igbo means {word}')
@@ -53,7 +53,7 @@ while True:
             print(f'{newJ} cannot be found here')
     elif choice == "2":
         j= input ("Enter an Igbo word or phrase: ")
-        word = engDict.get(j)
+        word = engDict.get(j.lower)
         newJ = j[0:1].upper() + j[1:].lower()
         if word:
             print(f'{newJ} in English means {word}')
