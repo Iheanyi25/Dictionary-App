@@ -1,28 +1,3 @@
-# ih = input("Enter your name: ")
-
-# if ih == "Iheanyi":
-#     print("Welcome Iheanyi")
-
-# elif ih == "Ihekweaba":
-#     print("Welcome Ihekweaba")
-
-# else:
-#     print("Go away")
-
-# from googletrans import Translator
-# translator = Translator()
-# lang = input("Press 1 for Eng-Igb and 2 for Igb-eng: ")
-# print(lang)
-# if lang == "1":
-#     new = input("Enter english word or sentence here: ")
-#     ih = translator.translate(new, dest='ig')
-#     print(ih.text)
-# elif lang == "2":
-#     new2 = input("Enter igbo word or sentence here: ")
-#     ih = translator.translate(new2, src= 'ig', dest='en')
-#     print(ih.text)
-# else: 
-#     print("Enter something resonable")
 while True:
     igboDict = {'come': 'Bia', 
                 'welcome':'Nnọọ', 
