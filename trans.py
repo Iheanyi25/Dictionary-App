@@ -7,7 +7,8 @@ while True:
                 'stop':'Kwusi',
                 'fire':'Ọkụ',
                 'leave me alone':'Hafum aka',
-                'please':'Biko'}
+                'please':'Biko',
+                'congratulations':'Ekele'}
     engDict = {'dalu': 'Welcome',
                 'nnoo': 'Welocme',
                 'bia':'come',
@@ -15,9 +16,10 @@ while True:
                 'ebee ka i si':'Where are you from',
                 'kwusi':'Stop',
                 'hafum aka':'Leave me alone',
-                'biko':'Please'}
-
-    choice = input("Press 1 for Eng-Igbo and 2 for Igbo-Eng: ")
+                'biko':'Please',
+                'ekele':'congratulations'}
+    print("Welcome")
+    choice = input("Click 1 to translate Eng-Igbo and 2 for Igbo-Eng: ")
     if choice == "1":
         j = input ("Enter an English word or phrase: ")
         word = igboDict.get(j.lower())
