@@ -9,7 +9,8 @@ while True:
                 'fire':'Ọkụ',
                 'leave me alone':'Hafum aka',
                 'please':'Biko',
-                'congratulations':'Ekele'}
+                'congratulations':'Ekele',
+                'thank you':'Imeela'}
     engDict = {'dalu': 'Welcome',
                 'nnoo': 'Welocme',
                 'bia':'Come',
@@ -18,11 +19,13 @@ while True:
                 'kwusi':'Stop',
                 'hafum aka':'Leave me alone',
                 'biko':'Please',
-                'ekele':'congratulations'}
-    print(f'COMMAND \t\tTRANSLATION')
-    print('------------------------------------')
-    print(f'1 \t\t\t English to Igbo')
-    print(f'2 \t\t\t Other Languages to English')
+                'ekele':'Congratulations',
+                'imeela':'Thank you'}
+    print(f'\tCOMMAND \tTRANSLATION')
+    print('\t-------------------------------')
+    print(f'\t1 \t\t English to Igbo')
+    print(f'\t2 \t\t Other Languages to English')
+    print()
     choice = input("Make a choice: ")
     if choice == "1":
         j = input ("Enter an English word or phrase: ")
