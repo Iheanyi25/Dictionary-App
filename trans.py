@@ -3,7 +3,7 @@ while True:
     igboDict = {'come': 'Bia', 
                 'welcome':'Nnọọ', 
                 'welcome':'Dalụ', 
-                'How are you':'Kedụ',
+                'how are you':'Kedụ',
                 'where are you from':'Ebee ka i si',
                 'stop':'Kwusi',
                 'fire':'Ọkụ',
